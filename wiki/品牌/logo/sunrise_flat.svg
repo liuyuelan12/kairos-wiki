@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+<defs><linearGradient id="gold" gradientUnits="userSpaceOnUse" x1="512.00" y1="297.00" x2="512.00" y2="727.00"><stop offset="0" stop-color="#FCD535"/><stop offset="0.55" stop-color="#F0B90B"/><stop offset="1" stop-color="#B8860B"/></linearGradient></defs>
+<g fill="url(#gold)" stroke="none">
+<polygon points="937.82 667.16 683.58 715.00 680.24 691.24"/>
+<polygon points="911.62 568.24 675.89 674.80 667.03 652.50"/>
+<polygon points="862.79 478.32 658.91 637.56 645.04 617.98"/>
+<polygon points="794.11 402.47 633.62 605.38 615.51 589.63"/>
+<polygon points="709.44 345.01 601.44 580.09 580.13 569.07"/>
+<polygon points="613.60 309.17 564.20 563.11 540.88 557.44"/>
+<polygon points="512.00 297.00 524.00 555.42 500.00 555.42"/>
+<polygon points="410.40 309.17 483.12 557.44 459.80 563.11"/>
+<polygon points="314.56 345.01 443.87 569.07 422.56 580.09"/>
+<polygon points="229.89 402.47 408.49 589.63 390.38 605.38"/>
+<polygon points="161.21 478.32 378.96 617.98 365.09 637.56"/>
+<polygon points="112.38 568.24 356.97 652.50 348.11 674.80"/>
+<polygon points="86.18 667.16 343.76 691.24 340.42 715.00"/>
+<path d="M 362.00 727.00 A 150.00 150.00 0 0 1 662.00 727.00 Z"/>
+<rect x="162.00" y="712.00" width="700.00" height="30.00" rx="15.00" ry="15.00"/>
+</g></svg>

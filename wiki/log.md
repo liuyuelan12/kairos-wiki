@@ -2,6 +2,19 @@
 
 > append-only 时间线。每次 ingest / query / lint 追加一条（最新在上）。规则见 `CLAUDE.md`。
 
+## [2026-06-27] logo | 旭日 Sunrise（复刻 `raw/参考/logoReferences/2.png`）
+- **目标**：复刻参考图旭日母题（地平线 + 半圆太阳 + ~13 放射尖刺），配色改币安金、去文字、只要图标、透明底。
+- **① 扁平矢量**：新建 `tools/gen_logo_sunrise.py`（纯标准库，几何全参数化）→ 出
+  `品牌/logo/sunrise_flat.svg` + `_{2048,512,256,64}.png`（**RGBA 透明**，已核验）。金色渐变
+  `#FCD535→#F0B90B→#B8860B`，`--flat` 可切单色。栅格器 `rsvg-convert`（主）/`cairosvg`（回退）。
+- **② 3D 金属**：扩展 `tools/gen_logo.py` —— 加 `--ref`（参考图条件生成）、`--transparent`、
+  `image_has_alpha`/`ext_for` 与「不透明回退黑底」逻辑，精修 `sunrise` 概念对齐参考构图。跑
+  `--only sunrise --ref ... --transparent` → `品牌/logo/sunrise.jpg`（抛光金属金 + 玻璃虹彩，黑底）。
+- **存疑/已知**：`gemini-3-pro-image` 返回不透明 JPEG，故 3D 版按设计回退黑底（非真透明）；如需 3D 透明
+  需换支持 alpha 的模型或后期抠像。扁平矢量版已是真透明底，建议作 UI/favicon 首选。
+- **触及页**：[[视觉风格]]（新增旭日小节 + 第④符号方向）、`index.md`、`log.md`。
+- **密钥**：`GEMINI_API` 仅写本地 `.env`（已 `.gitignore`，未入库）。
+
 ## [2026-06-27] 框架初始化 + ingest | SEE-X Deck
 - **搭框架**：建 `CLAUDE.md`（schema）+ `wiki/` 五分类 + `index.md`/`log.md`。
 - **转录**：`raw/参考/SEE-X-Deck-繁中-识别.md`（27 页逐页）。

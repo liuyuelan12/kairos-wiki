@@ -45,5 +45,5 @@
 
 ## 品牌
 - [[命名方案]] — Kairos / $KAI 定名理据 + 候选对比。
-- [[视觉风格]] — BGB 3D 风 + 币安金 `#F0B90B`。
-- logo 资产 → `品牌/logo/`。
+- [[视觉风格]] — BGB 3D 风 + 币安金 `#F0B90B`；含**旭日 Sunrise** logo（扁平 SVG + 3D 金属）。
+- logo 资产 → `品牌/logo/`：旭日扁平 `sunrise_flat.svg`/`_*.png`（透明底）+ 3D `sunrise.jpg`；另 `hourglass`/`k-coin`/`seize`/`wordmark`。
