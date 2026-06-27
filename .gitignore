@@ -1,0 +1,22 @@
+# Secrets — 绝不提交（GEMINI_API 等本地密钥）
+.env
+.env.*
+!.env.example
+
+# OS / 编辑器杂物
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 临时/日志
+*.log
+.scratch/
+
+# 大体积 / 第三方 PDF（如 80M 的 See-X deck、各家 Pitch Deck）—— 不入库、不公开
+# 仅排除 PDF；参考 logo PNG、识别稿 .md 等仍正常跟踪
+*.pdf
